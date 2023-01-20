@@ -6,7 +6,8 @@ export default function Form(){
             <h2 className='text-3xl mb-7'>Feel free to contact  me anytime you want.</h2>
             <p className='text-xl text-gray-300 text-center'>I will respond to your request as fast as i can !</p>
             <div className="mt-10 [&_input]:h-12 [&_input]:pl-5 flex-col lg:flex-row flex lg:justify-around border-t p-10 pt-12">
-                <form name="contact" method="POST" data-netlify="true" className=" flex flex-col [&_input]:bg-gray-900 [&_textarea]:bg-gray-900 [&_textarea]:text-gray-200 [&_input]:text-gray-200">
+                <form name="contact" method="POST" netlify netlify-honeypot="bot-field" className=" flex flex-col [&_input]:bg-gray-900 [&_textarea]:bg-gray-900 [&_textarea]:text-gray-200 [&_input]:text-gray-200">
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="flex justify-between [&_input]:w-[49%]">
                         <input className="focus:placeholder-transparent" type="text" name="name" placeholder="Name"/>
                         <input className="focus:placeholder-transparent" type="email" name="email" placeholder="Email"/>
