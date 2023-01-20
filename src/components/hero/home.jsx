@@ -5,7 +5,7 @@ export default function HomeHero() {
             <p>I always was interested in the web universe and the development in general, but for somes reasons i put away this part of me until last year.</p>
             <p>Good to know, i'm a very curious and creative person wich is the start of my professional turn-over, i think the web developement as a blank board with an infinite amount of possibility and evolution. That perspective puts me in a never ending learning approach and it's all i want for the future !</p>
             <p>All my previous professional experience has granted me something, notably on the character side such as :</p>
-            <ul className="ml-[42%] mt-5 mb-5">
+            <ul className="ml-[42%] mb-5">
                 <li> - Curiosity</li>
                 <li> - Autonomy</li>
                 <li> - Reactivity</li>
