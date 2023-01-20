@@ -8,7 +8,7 @@ import fisheyeSmall from "../assets/screen-project/fisheyeSmall.png"
 
 export default function WorkPage() {
     return(
-        <main className="text-gray-200 flex justify-center mb-20 2xl:w-1/2 gap-16 flex-wrap mt-16 xl:mt-36 pt-3">
+        <main className="text-gray-200 flex justify-center mb-20 2xl:mr-28 gap-16 flex-wrap mt-16 xl:mt-36 pt-3">
             <CardWork 
                 title="Wealth Health"
                 description="JQuery transition to React."
