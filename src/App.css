@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profilePic {
+    top: 7rem;
+}
+
+/* About section */
+
+button.line, button.line2 {
+    position: relative;
+    z-index: 1;
+}
+button.line:before, button.line2:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: -50%; right: 0; bottom: 0;
+    width: 120px;
+    z-index: -1;
+}
+
+.line:after {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 25%; right: 0; bottom: 0;
+    width: 130px;
+    z-index: -1;
+}
+
+.line2:after {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 25%; right: 0; bottom: 0;
+    width: 115px;
+    z-index: -1;
+}
+
+.line span, .line2 span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    background: #0d1117; 
+    padding: 0 15px; 
+}
+
+/*About - experiences*/
+
+.pastxp {
+    width: 100%;
+}
+
