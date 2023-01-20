@@ -17,7 +17,9 @@ export default function Form(){
                     <div>
                         <textarea className="focus:placeholder-transparent w-full mt-4 min-h-[150px] pl-5 pt-2 h-[176px]" name="message" placeholder="Message"></textarea>
                     </div>
-                    {/* <button type="submit">Send</button> */}
+                    <div className='flex justify-center mt-4'>
+                        <button type="submit" className='bg-gray-900 w-28 h-12 text-xl text-gray-200'>Send</button>
+                    </div>
                 </form>
                 <div className=' xl:ml-20 mt-6 lg:mt-0'>
                     <Iframe 
